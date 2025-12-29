@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Trashes
+.Library/
+.Caches/
+.Spotlight-V100
+
+# Never track secrets
+.ssh/
+.gnupg/
+.aws/
+.kube/
+.azure/
+.netrc
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Noise / caches
+.cache/
+.local/share/
+.npm/
+npm-debug.log*
+
+# System / heavy dirs
+Pictures/
+Photos Library.photoslibrary/
+Public/
+OneDrive*/
+CommScope/
+dotfiles-migration-backup/
